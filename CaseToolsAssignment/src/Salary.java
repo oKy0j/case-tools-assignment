@@ -1,22 +1,34 @@
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Judan Pinto
+ *
+ */
 public class Salary {
 	
 	
 	//creating a scanner object
 	Scanner scn=new Scanner(System.in);
 	
-	//variable to store salary 
+	/**
+	 * this is a variable to store the salary of an employee
+	 */
 	private double basic_salary;
 	
 	
-    //method to get salary from user
+	/**
+     * this is a method that will take input form the user to get the salary
+     */
 	
 	public void getBasic() {
 		basic_salary=scn.nextDouble();
 	}
 	
-	//method to calculate dearness allowance
+	/**
+	 * this is a method to calculate dearness allowance
+	 * @return it returns dearness allowance
+	 */
 	
 	public double calcDA() {
 		
@@ -24,7 +36,10 @@ public class Salary {
 		
 	}
 	
-	//method to calculate house rent allowance
+	/**
+	 * this is a method to calculate house rent allowance
+	 * @return it returns the basic salary
+	 */
 
 	public double calcHRA() {
 		
@@ -32,7 +47,10 @@ public class Salary {
 		
 	}
 	
-	//method to calculate gross salary
+	/**
+	 * this is a method to calculate gross salary
+	 * @return it returns the gross salary of an employee
+	 */
 
 	public double calcGS() {
 		
@@ -40,7 +58,10 @@ public class Salary {
 		
 	}
 	
-	//method to calculate income tax
+	/**
+	 * this is a method to calculate income tax
+	 * @return it returns the income tax 
+	 */
 
 
 	public double calcIncomeTax() {
@@ -49,7 +70,10 @@ public class Salary {
 		
 	}
 	
-	//method to calculate net salary
+	/**
+	 * this is a method to calculate net salary
+	 * @return it returns the net salary of an employee
+	 */
 
 	public double calcNS() {
 		
